@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "date-format": "^4.0.11",
+    "object-to-xml": "^2.0.0",
+    "puppeteer": "10.0.0"
+  },
+  "scripts": {
+    "test-pa11y": "pa11y-ci --config ./config.json"
+  }
+}

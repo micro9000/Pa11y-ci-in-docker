@@ -1,0 +1,41 @@
+<results>
+  <violations>0</violations>
+  <generated>28 06 2022 02:30:56</generated>
+  <item>
+    <documentTitle>MANGINGISDA.ORG – Help, Invest, and Earn</documentTitle>
+    <pageUrl>https://www.mangingisda.org/</pageUrl>
+    <issues>
+      <code>WCAG2AA.Principle1.Guideline1_1.1_1_1.H37</code>
+      <type>error</type>
+      <typeCode>1</typeCode>
+      <message>Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</message>
+      <context>&lt;img src=&#34;https://www.mangingisda.org/wp-content/uploads/2019/05/site-logo.png&#34; title=&#34;https://www.mangingisda.org/&#34;&gt;</context>
+      <selector>#page &gt; div:nth-child(3) &gt; div:nth-child(1) &gt; div &gt; div:nth-child(2) &gt; div &gt; div:nth-child(1) &gt; img</selector>
+      <runner>htmlcs</runner>
+      <runnerExtras>
+      </runnerExtras>
+    </issues>
+    <issues>
+      <code>WCAG2AA.Principle1.Guideline1_1.1_1_1.H37</code>
+      <type>error</type>
+      <typeCode>1</typeCode>
+      <message>Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</message>
+      <context>&lt;img src=&#34;https://secure.gravatar.com/avatar/50f825850592261a2fba14435966ae0a?s=40&amp;amp;d=mm&amp;amp;r=g&#34;&gt;</context>
+      <selector>#post-58 &gt; div &gt; div &gt; footer &gt; div &gt; span &gt; span &gt; img</selector>
+      <runner>htmlcs</runner>
+      <runnerExtras>
+      </runnerExtras>
+    </issues>
+    <issues>
+      <code>WCAG2AA.Principle1.Guideline1_1.1_1_1.H37</code>
+      <type>error</type>
+      <typeCode>1</typeCode>
+      <message>Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</message>
+      <context>&lt;img src=&#34;https://secure.gravatar.com/avatar/50f825850592261a2fba14435966ae0a?s=40&amp;amp;d=mm&amp;amp;r=g&#34;&gt;</context>
+      <selector>#post-53 &gt; div &gt; div &gt; footer &gt; div &gt; span &gt; span &gt; img</selector>
+      <runner>htmlcs</runner>
+      <runnerExtras>
+      </runnerExtras>
+    </issues>
+  </item>
+</results>

@@ -1,0 +1,2 @@
+docker build -t coles/pa11y-ci --label pa11y-ci --secret id=npm,src=./.npmrc --progress=plain .
+docker run --rm -v $pwd/pa11ywrk:/pa11ywrk/:rw coles/pa11y-ci

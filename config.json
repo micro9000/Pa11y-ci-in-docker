@@ -1,0 +1,15 @@
+{
+    "defaults": {
+        "reporters": [
+            "cli",
+            ["./reporter.js", {"fileName": "/pa11ywrk/Pa11y-CI-Report.xml"}]
+        ],
+        "chromeLaunchConfig": {
+            "args": ["--no-sandbox"]
+        },
+        "timeout": 60000
+    },
+    "urls": [
+        "https://mangingisda.org/"
+    ]
+}
