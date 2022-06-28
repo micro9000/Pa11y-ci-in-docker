@@ -43,6 +43,8 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Diagnostic logging (to allow confirmation that npm config and .npmrc are correct inside container)
 RUN --mount=type=secret,id=npm,dst=/app/.npmrc echo "=======" && ls -al && echo "-------" && npm config list && echo "-------" && cat .npmrc && echo "-------" && printenv | sort && echo "======"
 
+RUN npm cache clean --force && rm -rf node_modules
+
 # Restore packages, using mounted .npmrc file
 RUN --mount=type=secret,id=npm,dst=/app/.npmrc --mount=type=secret,id=cert,dst=/etc/ssl/certs/ca-certificates.crt npm install -g npm@${npm_version} && \
     npm --verbose --no-audit ci
